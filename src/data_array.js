@@ -6,7 +6,7 @@ export default [
         startDate: "29 Feb, 2024",
         endDate: "3 Mar, 2024",
         description: "Cloud Strife embarked on his journey in the sprawling city of Midgar, beneath the towering plates of the Shinra Electric Power Company. Tasked with aiding the eco-terrorist group AVALANCHE, he faced the oppressive regime of Shinra from the slums to the heart of their corporate power. The city's stark divide between wealth and poverty became a vivid backdrop to Cloud's initial steps into a larger, more complex world.",
-        imageUrl: "./assets/midgar-final-fantasy-7-remake-thumb.jpg"
+        imageUrl: "midgar-final-fantasy-7-remake-thumb.jpg"
     },
     {
         title: "Kalm Town",
