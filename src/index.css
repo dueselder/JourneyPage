@@ -131,6 +131,16 @@ a:hover {
 
 /* Layout */
 
+.card-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem 0;
+    background-color: var(--primary-background);
+}
+
 .header {
     display: flex;
     flex-direction: row;
@@ -138,4 +148,38 @@ a:hover {
     justify-content: center;
     padding: 2rem 0;
     background-color: var(--secondary-background);
+}
+
+.card {
+  display: grid;
+  /* Image left side, text right side */
+  grid-template-columns: 1fr 1fr;
+  /* grid template */
+  grid-template-areas: "image text";
+  /* gap between grid items */
+  gap: 1rem;
+  /* padding around grid */
+  padding: 1rem;
+  max-width: 1000px;
+}
+
+.card-image {
+  /* grid area */
+  grid-area: image;
+  /* image size */
+  width: 100%;
+  height: 100%;
+  /* image position */
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-text {
+  /* grid area */
+  grid-area: text;
+  /* flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }

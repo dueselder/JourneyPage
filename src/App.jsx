@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <Header />
-      <section>
+      <section className="card-section">
         {cards}
       </section>
     </>

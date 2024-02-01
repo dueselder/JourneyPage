@@ -1,4 +1,4 @@
-import globus from '../../assets/pngegg.png';
+import globus from '../../../public/assets/pngegg.png';
 
 function Header() {
     return (
